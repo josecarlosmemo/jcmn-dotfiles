@@ -1,0 +1,37 @@
+# # # # # #
+# Aliases #
+# # # # # #
+alias screenfetch='screenfetch -a $HOME/.randomshit/jcmn_logo.txt'
+alias tryhackme='sudo openvpn ~/Downloads/misterio2051.ovpn'
+
+
+alias la='ls -la'
+alias ..='cd ..'
+alias ...='cd ../../'
+alias sonicvisualiser='cd $HOME/.randomshit/ && ./SonicVisualiser-4.0.1-x86_64.AppImage'
+
+alias cl='clear'
+alias lc='colorls'
+
+alias openmatlab='/Users/josecarlos/scripts/misc/open_matlab.sh'
+
+alias venv='python3 -m venv venv'
+
+
+
+
+# Dotfiles
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+
+# Youtube-dl
+alias mp3='youtube-dl -f bestaudio --extract-audio --audio-format mp3 -i -o "%(title)s.%(ext)s"'
+alias mp4='youtube-dl -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio" --merge-output-format mp4 -o "%(title)s.%(ext)s"'
+
+# Kirks with Linux
+alias bt='sudo service bluetooth start; blueman-manager'
+alias ft='sudo modprobe facetimehd'
+
+# Adding to PATH
+
+export PATH="$PATH:/Users/josecarlos/Desktop/Projects/Flutter/flutter/bin"
+
